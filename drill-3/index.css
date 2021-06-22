@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 125px;
+  background-color: rgb(194, 194, 194);
+}
+.little-blue {
+  background-color: rgb(30, 145, 194);
+  width: 100px;
+  height: 100px;
+  transform: translateY(10px);
+  margin-left: 20px;
+}
+.rainbow {
+  height: 125px;
+  width: 100%;
+}
+.whitespace {
+  height: 200px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue-stripe {
+  background-color: rgb(75, 127, 201);
+}
+.lightblue-stripe {
+  background-color: rgb(102, 223, 215);
+}
+.green-stripe {
+  background-color: rgb(183, 238, 144);
+}
+.yellow-stripe {
+  background-color: rgb(238, 238, 62);
+}
+p {
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
